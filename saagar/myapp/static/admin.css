@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.main-box {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(BEACH.jpg);
+    background-size: cover;
+    font-family: Arial;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    padding: 12px;
+    border-bottom: 2px solid black;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    background-color: #e6d3a3;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+}
+
+.foot {
+    margin-top: auto;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
